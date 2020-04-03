@@ -26,9 +26,7 @@ class School
   end 
 
   def sort
-    @roster.collect do |grade_level, student_list|
-      @roster[grade_level] = student_list.sort 
-    end 
+    @roster.collect{|grade_level, student_list| @roster[grade_level] = student_list.sort}
     @roster
   end 
   
