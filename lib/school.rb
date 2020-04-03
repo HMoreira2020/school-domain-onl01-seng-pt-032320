@@ -17,9 +17,13 @@ class School
       @roster[grade_level] << student_name  
     end 
   end 
-end 
+ 
   
+  def grade(grade_level) 
+    @roster[grade_level] 
+  end 
 
+end 
   
   
   
