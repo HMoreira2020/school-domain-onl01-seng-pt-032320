@@ -31,6 +31,8 @@ class School
       sorted_student_hash << student_list.sort 
       binding.pry 
     end 
+  end 
+  
 end 
   
   
