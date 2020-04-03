@@ -12,7 +12,7 @@ class School
     if @roster[grade_level] 
       @roster [grade_level] << student_name
     else 
-      @roster[grade_level] = []
+      @roster[grade_level] = [] 
       @roster[grade_level] << student_name  
     end 
   end 
