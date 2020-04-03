@@ -29,6 +29,7 @@ class School
     @roster.collect do |grade_level, student_list|
       @roster[grade_level] = student_list.sort 
     end 
+    @roster
   end 
   
 end 
